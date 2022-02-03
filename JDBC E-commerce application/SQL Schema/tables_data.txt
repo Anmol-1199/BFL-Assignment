@@ -1,0 +1,12 @@
+// Devices Entry
+INSERT INTO Devices(Id,Name,Price) VALUES(1,'Hard drive',240);
+INSERT INTO Devices(Id,Name,Price) VALUES(2,'Samsung Phone',2000);
+INSERT INTO Devices(Id,Name,Price) VALUES(3,'iPhone',9000);
+INSERT INTO Devices(Id,Name,Price) VALUES(4,'JBL Earphones',210);
+INSERT INTO Devices(Id,Name,Price) VALUES(5,'Mouse',290);
+INSERT INTO Devices(Id,Name,Price) VALUES(101,'keyboard',310);
+
+
+// Seller Entry
+INSERT INTO Seller(Seller_id ,Seller_Name ) VALUES(1199,'Anmol Patel');
+

@@ -1,0 +1,32 @@
+CREATE TABLE Devices(
+  Id Integer,
+  Name VARCHAR(255) NOT NULL ,
+  Price DECIMAL NOT NULL ,
+  PRIMARY KEY (Id)
+) 
+
+
+CREATE TABLE Customer(
+  Mob_No INTEGER,
+  Name VARCHAR(255) NOT NULL ,
+  Email VARCHAR(255) NOT NULL ,
+  Address VARCHAR(255) NOT NULL ,
+  PRIMARY KEY (Mob_No)
+)
+
+
+CREATE TABLE Cart (
+  Cust_id INTEGER,
+  Cust_Name VARCHAR(255) NOT NULL ,
+  dname VARCHAR(255) NOT NULL ,
+  dprice VARCHAR(255) NOT NULL 
+)
+
+
+
+CREATE TABLE Seller(
+  Seller_id INTEGER,
+  Seller_Name VARCHAR(255) NOT NULL ,
+  PRIMARY KEY (Seller_id)
+)
+
